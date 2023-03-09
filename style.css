@@ -1,0 +1,141 @@
+/* Body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fafafa;
+  }
+  
+  /* Container */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  /* Countdown Container */
+  .countdown-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    padding: 40px;
+    text-align: center;
+  }
+  
+  /* Countdown Heading */
+  .countdown-heading {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #444;
+  }
+  
+  /* Countdown Input */
+  .countdown-input {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .countdown-input label {
+    font-size: 24px;
+    font-weight: 500;
+    margin-right: 10px;
+    color: #444;
+  }
+  
+  .countdown-input input {
+    border: none;
+    border-bottom: 2px solid #444;
+    padding: 5px 10px;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    color: #444;
+    background-color: transparent;
+    width: 300px;
+    transition: border-bottom-color 0.3s ease;
+  }
+  
+  .countdown-input input:focus {
+    outline: none;
+    border-bottom-color: #2ecc71;
+  }
+  
+  /* Countdown Timer */
+  .countdown-timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .countdown-number {
+    background-color: #2ecc71;
+    border-radius: 10px;
+    margin-right: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .countdown-number span {
+    display: block;
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .countdown-label {
+    font-size: 24px;
+    font-weight: 500;
+    color: #444;
+  }
+  
+  /* Set Reminder Button */
+  #set-reminder-btn {
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 10px 20px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #set-reminder-btn:hover {
+    background-color: #27ae60;
+  }
+  
+  /* Reminder Message */
+  #reminder-message {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    color: #444;
+  }
+  
+  /* Social Media Sharing */
+  .social-media-sharing {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-media-sharing a {
+    margin-right: 10px;
+  }
+  
+  .social-media-sharing a i {
+    font-size: 36px;
+    color: #444;
+    transition: color 0.3s ease;
+  }
+  
+  .social-media-sharing a:hover i {
+    color: #2ecc71;
+  }
+  
